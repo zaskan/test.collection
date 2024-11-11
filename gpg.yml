@@ -1,6 +1,6 @@
 ---
 - name: Install GPG and generate GPG key
-  hosts: all
+  hosts: localhost
   become: true
   vars:
     gpg_real_name: "Your Name"
@@ -37,4 +37,3 @@
     - name: Display generated GPG keys
       ansible.builtin.debug:
         msg: "{{ gpg_list_output.stdout }}"
-

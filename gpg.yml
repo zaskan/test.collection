@@ -8,10 +8,6 @@
     gpg_key_length: 4096
     gpg_expiry: "1y"  # Options: '0' for never expire, '1y' for one year, etc.
   tasks:
-    - name: Install GPG package
-      ansible.builtin.package:
-        name: gnupg
-        state: present
 
     - name: Generate GPG key input file
       ansible.builtin.copy:

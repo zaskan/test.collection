@@ -1,1 +1,3 @@
-# ansible_test_collection
+# Ansible Collection - test.collection
+
+Documentation for the collection.

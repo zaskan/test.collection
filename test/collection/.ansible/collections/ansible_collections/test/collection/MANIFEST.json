@@ -1,0 +1,30 @@
+{
+ "collection_info": {
+  "namespace": "test",
+  "name": "collection",
+  "version": "1.0.0",
+  "authors": [
+   "your name <example@domain.com>"
+  ],
+  "readme": "README.md",
+  "tags": [],
+  "description": "your collection description",
+  "license": [
+   "GPL-2.0-or-later"
+  ],
+  "license_file": null,
+  "dependencies": {},
+  "repository": "http://example.com/repository",
+  "documentation": "http://docs.example.com",
+  "homepage": "http://example.com",
+  "issues": "http://example.com/issue/tracker"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "ec0c9064a1b0631ab0ae1f8551b856f8e91fb23c632af38ee2db75e933f69bc9",
+  "format": 1
+ },
+ "format": 1
+}

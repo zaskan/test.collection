@@ -1,1 +1,1 @@
-# ansible_testing_pipeline
+# ansible_test_collection
